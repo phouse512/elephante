@@ -47,8 +47,14 @@ body {
 .result {
 	border-radius: 3px;
 	border: 1px solid rgb(227,227,227);
-	width: 100%;
+	width: 95%;
 	margin-top: 5px;
+	padding: 5px;
+}
+
+.result {
+	cursor: pointer;
+	cursor: hand;
 }
 
 .result > h4 {
@@ -57,7 +63,6 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
-	border-bottom: 1px solid rgb(227,227,227);
 }
 
 .header { 
