@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "elephante",
+	"description": "an quick snippet saver for links and resources",
+	"version": "1.0",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"https://ajax.googleapis.com/",
+		"tabs"
+	],
+	"background": {
+		"scripts": ["bundle.js"],
+		"persistent": false
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"commands": {
+		"toggle-feature": {
+			"suggested_key": { "default": "Ctrl+Shift+Y" },
+			"description": "Send a 'toggle-feature' event to the extension"
+		},
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F",
+				"mac": "MacCtrl+Shift+F"
+			}
+		}
+	}
+}

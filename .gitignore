@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+build/bundle.js
+build/css
+build/fonts

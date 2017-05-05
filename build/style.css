@@ -1,0 +1,78 @@
+body {
+	min-width: 400px;
+}
+
+.searchContainer {
+	display: flex;
+}
+
+.saveButton {
+	height: 55px;
+	width: 15%;
+	margin-right: 10px;
+}
+
+.saveButton > i {
+	width: 100%;
+	font-size: 40px;
+	border: 1px solid rgb(134,121,10);
+	border-radius: 3px;
+	height: 47px;
+	text-align: center;
+	padding-top: 10px;
+	color: rgb(134,121,120);
+}
+
+.saveButton > i:hover {
+	background-color: rgb(221,221,221);
+	color: rgb(160,160,160);
+}
+
+.searchBar {
+	line-height: 55px;	
+	width: 85%;
+	font-size: 18px;
+	color: rgb(134,121,120);
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+	font-weight: 300;
+}
+
+.searchBar:focus {
+	outline: none;
+	border-color: #09f;
+	box-shadow: 0 0 5px rgba(0,153,255,.5);
+}
+
+.result {
+	border-radius: 3px;
+	border: 1px solid rgb(227,227,227);
+	width: 100%;
+	margin-top: 5px;
+}
+
+.result > h4 {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-bottom: 1px solid rgb(227,227,227);
+}
+
+.header { 
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	color: rgb(100,100,100);
+}
+
+#saveContainer > h3,h4 {
+	color: rgb(134,121,120);
+	margin: 0px;
+	padding: 0px;
+}
+
+#saveContainer > h3 {
+	margin-top: 10px;
+}
